@@ -15,11 +15,14 @@ annotation scheme has two layers:
 (a) binary classification (Hate Speech or Not Hate Speech) 
 
 (b) fine-grained classification.
-- Politics(정치성향차별)
-- Origin(출신차별)
-- Physical(외모차별)
-- Age(연령차별)
-- Gender(성차별)
-- Religion(종교차별)
-- Race(인종차별)
-- Profanity(혐오욕설)
+- 0: origin (출신차별)
+- 1: physical (외모차별)
+- 2: politics (정치성향차별)
+- 3: profanity (혐오욕설)
+- 4: age (연령차별)
+- 5: gender (성차별)
+- 6: race (인종차별)
+- 7: religion (종교차별)
+- 8: not_hate_speech (혐오아님)
+
+
